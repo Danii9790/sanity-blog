@@ -11,7 +11,7 @@ import { draftMode } from "next/headers";
 
 import AlertBanner from "./alert-banner";
 import PortableText from "./portable-text";
-
+import Link from "next/link";
 import * as demo from "@/sanity/lib/demo";
 import { sanityFetch } from "@/sanity/lib/fetch";
 import { settingsQuery } from "@/sanity/lib/queries";
@@ -82,12 +82,12 @@ export default async function RootLayout({
                     Thank for Visit My Web Blog
                   </h3>
                   <div className="flex flex-col items-center justify-center lg:w-1/2 lg:flex-row lg:pl-4">
-                    <a
+                    <Link
                       href="/"
                       className="mx-3 mb-6 border border-black bg-black py-3 px-12 font-bold text-white transition-colors duration-200 hover:bg-white hover:text-black lg:mb-0 lg:px-8"
                     >
                       Back to Home
-                    </a>
+                    </Link>
                  
                   </div>
                 </div>

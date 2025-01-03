@@ -68,7 +68,7 @@ export default async function RootLayout({
     <html lang="en" className={`${inter.variable} bg-white text-black`}>
       <body>
         <section className="min-h-screen">
-          <AlertBanner />}
+          <AlertBanner />
           <main>{children}</main>
           <footer className="bg-accent-1 border-accent-2 border-t">
             <div className="container mx-auto px-5">
@@ -80,7 +80,7 @@ export default async function RootLayout({
               ) : (
                 <div className="flex flex-col items-center py-28 lg:flex-row">
                   <h3 className="mb-10 text-center text-4xl font-bold leading-tight tracking-tighter lg:mb-0 lg:w-1/2 lg:pr-4 lg:text-left lg:text-5xl">
-                    Thank for Visit my Web Blog
+                    Thank for Visit My Web Blog
                   </h3>
                   <div className="flex flex-col items-center justify-center lg:w-1/2 lg:flex-row lg:pl-4">
                     <a

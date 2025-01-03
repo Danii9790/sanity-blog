@@ -1,5 +1,4 @@
 import "../globals.css";
-
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import {
@@ -94,10 +93,12 @@ export default async function RootLayout({
                 </div>
               )}
             </div>
+            
           </footer>
         </section>
         {isDraftMode && <VisualEditing />}
         <SpeedInsights />
+       
       </body>
     </html>
   );

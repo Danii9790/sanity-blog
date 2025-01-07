@@ -11,7 +11,6 @@ import authorType from "./author";
  * create or edit a post in the studio.
  * 
  * Here you can see the different schema types that are available:
-
   https://www.sanity.io/docs/schema-types
 
  */

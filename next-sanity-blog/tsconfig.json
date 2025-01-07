@@ -9,6 +9,7 @@
     "noEmit": true,
     "module": "preserve",
     "isolatedModules": true,
+
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
